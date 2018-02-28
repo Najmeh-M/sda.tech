@@ -451,6 +451,26 @@ sdaperson:FathoniMusyaffa a foaf:Person, sdatech:phdStudent ;
                    sda:publication sdapublication:Publication1 ;
                    sda:group sdagroup:DistributedSemanticAnalytics .
 
+sdaperson:MousaviNajmeh a foaf:Person, sdatech:phdStudent ;
+                   sda:publicationsTag "mousavi" ;
+                   sda:room "A118" ;
+                   foaf:familyName "Mousavi Nejad" ;
+                   foaf:name "Najmeh Mousavi Nejad" ;
+                   foaf:nick "Najmeh" ;
+                   foaf:mbox <mailto:nejad(at)cs.uni-bonn.de> ;
+                   foaf:depiction <https://avatars0.githubusercontent.com/u/15237228?s=400&v=4> ;
+                   foaf:phone <tel:+49-341-123456789> ;
+                   foaf:firstName "Najmeh" ;
+                   foaf:title "" ;
+                   foaf:status "Ph.D Student" ;
+                   sda:linkedin "www.linkedin.com/in/najmeh-mousavi" ;
+                   sda:twitter "https://twitter.com/Najme_M" ;
+                   sda:github "https://github.com/Najmeh-M" ;
+                   schema:location <http://sda.tech/Address/SDA> ;
+                   cv:aboutPerson "Najmeh Mousavi Nejad is a PhD student in the Smart Data Analytics group at University of Bonn. She received her master's degree in Artificial Intelligence in 2011 in Iran, following which she accumulated research experience supported by publications as well as working experience in industry. Since 2015, she is the recipient of a DAAD scholarship (German Academic Exchange Service) for PhD studies in Germany and continues to conduct research (also received a nomination for Best Research and Innovation Paper award in an international conference). Her research interests are semantic web, text mining and analysis, information extraction & retrieval and Natural language processing." ;
+                   sda:publication sdapublication:Publication1 ;
+                   sda:group sdagroup:KnowledgeExtractionAndValidation .
+
 ##############################Associated Researchers#####################
 
 sdaperson:RajKapoor a foaf:Person, sdatech:associateResearcher ;
